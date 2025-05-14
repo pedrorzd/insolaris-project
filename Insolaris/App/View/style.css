@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Italiana&display=swap');
+:root{
+    --azul:#254159;
+    --laranja-claro: #D9961A;
+    --laranja-escuro: #A6710F;
+    --marrom:#593202;
+    --creme: #D9C0A3;
+}
+
+
+body {
+  margin-top: 30px;
+  background-color: var(--azul);
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  justify-content:center;
+  align-items: flex-start;
+  height: 1000vh;
+}
+
+
+.top-bar {
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+}
+
+.top-bar h1 {
+  margin: 0;
+  font-size: 1.5em;
+}
+
+#titulo {
+    font-family: "Italiana",sans-serif;
+    font-weight: 400;
+    font-size: 48px;
+    color: #f6a02d;
+}
+
+.menu-icon {
+  font-size: 1.5em;
+  cursor: pointer;
+}
+
+.slogan {
+    text-align: center;
+    font-size: 48px;
+    line-height: 1.4;
+    color: var(--creme);
+    margin-top: 56px;
+    font-family: "Italiana",sans-serif;
+    font-weight: 400;
+}
+
+.sun-icon {
+    display: flex;
+    align-items: center;
+    margin-left: 40px;
+    width: 250px;
+}
