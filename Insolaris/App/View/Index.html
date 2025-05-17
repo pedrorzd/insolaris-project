@@ -1,38 +1,69 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Italiana&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
-    <link rel="shortcut icon" href="./images/favicon-insolaris.png" type="image/x-icon">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Italiana&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="shortcut icon"
+      href="./images/favicon-insolaris.png"
+      type="image/x-icon"
+    />
     <title>Insolaris</title>
-</head>
-<body>
-  <div class="homepage">
+  </head>
+  <body>
+    <div class="homepage">
       <div class="container">
-        <header class="top-bar">
+        <header class="mobile-header">
+          <div class="menuAndLogo">
             <h1>
-                <span id="titulo">Insolaris</span>
+              <span id="app-name">Insolaris</span>
+              <img
+                id="app-logo"
+                src="./images/insolaris.png"
+                alt="Logo"
+                style="display: none"
+              />
             </h1>
-            <div class="menu-icon"><img src="./images/menu-burger.png"></div>
-        </header>
-        <p class="slogan">
-            A economia que<br>
-            faz a diferença<br>
-            no mundo
-        </p>
-          <img src="./images/insolaris.png" alt="Sol" class="sun-icon">
-      </div>
 
-      <div class="page2">
-            <span id="titulo">Insolaris</span>
-            <div class="menu-icon"><img src="./images/menu-burger.png">
+            <div class="menu-toggle">
+              <img src="./images/menu-burger.png" />
             </div>
+            <nav class="nav" id="nav">
+              <ul>
+                <li><a href="#inicio">Início</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#servicos">Serviços</a></li>
+                <li><a href="#contato">Contato</a></li>
+              </ul>
+            </nav>
+          </div>
+        </header>
+
+        <p class="slogan">
+          A economia que<br />
+          faz a diferença<br />
+          no mundo
+        </p>
+
+        <img src="./images/insolaris.png" alt="Sol" class="sun-icon" />
       </div>
-  </div>
-</body>
-</html>
+    </div>
+
+    <div class="default-pages">
+      <article>
+        <h2 class="subtitle">Como funciona a Energia Solar?</h2>
+
+        <p></p>
+      </article>
+    </div>
+
+    <script src="../Controllers/controlesVisuais.js"></script>
+  </body>
 </html>
