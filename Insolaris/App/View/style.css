@@ -38,9 +38,9 @@ body {
 }
 
 .menuAndLogo{
-  width: 80%;
+  width: 88%;
   background-color: var(--azul);
-  margin-top: -4%;
+  margin-top: -5%;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -136,4 +136,26 @@ p{
   text-align:start;
   width: 80%;
   padding-left: 10%;
+}
+
+.formulario{
+  display: flex;
+  flex-direction: column;
+}
+
+label, input {
+  margin: 3%;
+}
+
+input{
+  background-color: var(--laranja-escuro);
+  font-family: "Roboto", sans-serif;
+  color: var(--creme);
+  font-weight: 400;
+  font-size: 16px;
+}
+
+button{
+  font-family: "Roboto", sans-serif;
+  background-color: var(--laranja-claro);
 }
